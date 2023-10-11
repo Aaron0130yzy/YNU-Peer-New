@@ -12,6 +12,10 @@ html {
     text-align: center;
 }
 
+.logobox img{
+    width: 50%;
+}
+
 .top-menu {
     text-align: left;
     position: fixed;
@@ -46,7 +50,7 @@ html {
 .centered {
     
     justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
+    margin-top: 200px;
 }
 
 h1 {
