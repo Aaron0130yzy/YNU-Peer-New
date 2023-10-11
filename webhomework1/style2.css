@@ -14,11 +14,11 @@ header {
 .header-bgp {
     width: 1200px;
     margin: 0 auto;
-    background: url("pictures\\header-bg.jpg");
+    background: url("pictures/header-bg.jpg");
 }
 
 .header-banner {
-    background: url("pictures\\banner_sp.png") no-repeat;
+    background: url("pictures/banner_sp.png") no-repeat;
     height: 156px;
     width: 1200px;
     margin-right: auto;
@@ -222,6 +222,44 @@ nav span {
     vertical-align: middle;
     line-height: 100%;
 }
+
+.quick-entry {
+    background-color: rgba(0, 0, 0, 0.08);
+    height: 330px;
+    line-height: 44px;
+    padding-top: 25px;
+    font-size: 0;
+    clear: both;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*.changing-image-container {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.changing-image {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-size: cover;*/
+/*    transition: background-image 0.3s ease-in-out;*/
+/*}*/
+
+/*.changing-image:hover {*/
+/*    background-image: var(--hover-image);*/
+/*}*/
+
+/*.changing-image[data-original] {*/
+/*    background-image: var(--original-image);*/
+/*}*/
+
+/*.changing-image[data-original]:hover {*/
+/*    background-image: var(--hover-image);*/
+/*}*/
 
 .bottombox {
     width: 100%;
