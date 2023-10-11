@@ -222,3 +222,22 @@ nav span {
     vertical-align: middle;
     line-height: 100%;
 }
+
+.bottombox {
+    width: 100%;
+    background: url("http://www.sei.ynu.edu.cn/public/images/footer-bg.jpg");
+    height: 227px;
+    clear: both;
+    /*width: 1200px;*/
+    margin: 0 auto;
+}
+
+.bottombar {
+    width: 1200px;
+    margin: 0 auto;
+    background: url("http://www.sei.ynu.edu.cn/public/images/footer-inner-bg.jpg");
+    height: 187px;
+    text-align: center;
+    padding: 40px 0 0 0;
+    color: #fff;
+}
