@@ -1,0 +1,21 @@
+dependencies {
+    api project(":boilerplate-customer:boilerplate-customer-common")
+
+    api("com.github.binarywang:weixin-java-mp:${weixinJavaVersion}")
+
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+test {
+    include '**/*Test.class'
+}
+
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}

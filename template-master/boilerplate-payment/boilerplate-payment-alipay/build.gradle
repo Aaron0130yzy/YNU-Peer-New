@@ -1,0 +1,24 @@
+dependencies {
+    api project(":boilerplate-core:boilerplate-core-all")
+    api project(":boilerplate-sys-common")
+
+    api project(":boilerplate-payment:boilerplate-payment-common")
+
+    api ("com.egzosn:pay-java-ali:${alipayJavaVersion}")
+
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+test {
+    include '**/*Test.class'
+}
+
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
